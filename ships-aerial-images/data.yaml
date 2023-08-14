@@ -1,0 +1,6 @@
+train:  r"E:\yolov8\Ship_Detection_Project\ships-aerial-images\train"
+val: r"E:\yolov8\Ship_Detection_Project\ships-aerial-images\valid"
+test: r"E:\yolov8\Ship_Detection_Project\ships-aerial-images\test"
+
+nc: 1
+names: ['ship']
