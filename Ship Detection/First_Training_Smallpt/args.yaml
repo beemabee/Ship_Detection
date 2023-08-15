@@ -1,15 +1,15 @@
 task: detect
 mode: train
 model: yolov8s.yaml
-data: E:\yolov8\Ship_Detection_Project\ships-aerial-images\data.yaml
+data: D:\yoloTest\Ship_Detection\ships-aerial-images\data.yaml
 epochs: 100
-patience: 50
+patience: 70
 batch: 32
 imgsz: 256
 save: true
 save_period: -1
 cache: true
-device: cpu
+device: 0
 workers: 0
 project: Ship Detection
 name: First_Training_Smallpt
@@ -27,7 +27,6 @@ resume: null
 amp: true
 fraction: 1.0
 profile: false
-freeze: null
 overlap_mask: true
 mask_ratio: 4
 dropout: 0.0
