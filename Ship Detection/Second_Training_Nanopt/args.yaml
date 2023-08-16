@@ -2,20 +2,20 @@ task: detect
 mode: train
 model: yolov8n.yaml
 data: ships-aerial-images\data.yaml
-epochs: 150
-patience: 70
-batch: 32
+epochs: 100
+patience: 50
+batch: 64
 imgsz: 256
 save: true
 save_period: -1
 cache: true
-device: cpu
+device: 0
 workers: 0
 project: Ship Detection
 name: Second_Training_Nanopt
 exist_ok: true
 pretrained: true
-optimizer: Adam
+optimizer: auto
 verbose: true
 seed: 0
 deterministic: true
