@@ -1,12 +1,12 @@
 # <<<<<<< Updated upstream
-# train: E:\yolov8\Ship_Detection\ships-aerial-images\train\images
-# val: E:\yolov8\Ship_Detection\ships-aerial-images\valid\images
-# test: E:\yolov8\Ship_Detection\ships-aerial-images\test\images
+train: E:\yolov8\Ship_Detection\ships-aerial-images\train\images
+val: E:\yolov8\Ship_Detection\ships-aerial-images\valid\images
+test: E:\yolov8\Ship_Detection\ships-aerial-images\test\images
 # =======
-train: D:/yoloTest/Ship_Detection/ships-aerial-images/train/images
-val: D:/yoloTest/Ship_Detection/ships-aerial-images/valid/images
-test: D:/yoloTest/Ship_Detection/ships-aerial-images/test/images
-# >>>>>>> Stashed changes
+# train: D:/yoloTest/Ship_Detection/ships-aerial-images/train/images
+# val: D:/yoloTest/Ship_Detection/ships-aerial-images/valid/images
+# test: D:/yoloTest/Ship_Detection/ships-aerial-images/test/images
+# # >>>>>>> Stashed changes
 
 nc: 1
 names: ['ship']
